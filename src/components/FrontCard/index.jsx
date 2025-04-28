@@ -19,9 +19,13 @@ export default function CardFront(){
                 <LuNfc size={35} color="#fff" />
 
                 </div>
-                <div className="w-full h-[40%] "></div>
+                <div className="w-full h-[40%] pl-4">
+                    <p className="text-[40px] text-gray-500">0000 0000 0000 0000</p>
+                </div>
             </div>
-            <div className="w-full h-[30%]"></div>
+            <div className="w-full h-[30%] pl-4">
+                <p className="text-white text-[40px]">Nome no Cartão</p>
+            </div>
         </div>
     )
 }
